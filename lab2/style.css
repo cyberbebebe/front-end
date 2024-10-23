@@ -1,0 +1,112 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+table tr:nth-child(1) {
+  background-color: #668f8f;
+  color: #000000;
+}
+
+table tr:nth-child(2) {
+  background-color: #f5f566;
+  color: #073a50;
+}
+
+table tr:nth-child(1):hover {
+  background-color: #f5f566;
+  color: #073a50;
+}
+
+table tr:nth-child(2):hover {
+  background-color: #668f8f;
+  color: #000000;
+}
+.phones {
+  display: flex;
+}
+
+.phone {
+  width: 200px;
+  height: 320px;
+  background-color: #dcedc8;
+  margin-top: 2%;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.screen {
+  width: 80%;
+  height: 45%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones p {
+  position: sticky;
+  font-size: 45px;
+}
+
+.buttons {
+  padding: 20px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+.buttons div {
+  height: 30px;
+  background-color: purple;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.phone-2 {
+  margin-left: 30px;
+  width: 200px;
+  height: 320px;
+  background-color: #dcedc8;
+  margin-top: 2%;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.screen-2 {
+  width: 80%;
+  height: 45%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  transform: translate(20px, 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-2 {
+  padding: 20px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.buttons-2 div {
+  transform: scale(1, 9);
+  border-radius: 100%;
+  margin-top: 20px;
+  border: 2px solid purple;
+}
